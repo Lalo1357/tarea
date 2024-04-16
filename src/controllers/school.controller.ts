@@ -1,10 +1,10 @@
 import Registration from "../interfaces/int.school";
 import IResponse from "../interfaces/int.response";
 import logger from "../../lib/logger";
-import Stock from "../models/mod.music";
+import Stock from "../models/mod.school";
 import HttpServer from "../class/server.class";
 
-export default class ClassControl{// prueba
+export default class ClassControl{
 
     private server: HttpServer;
     private connection = null;
