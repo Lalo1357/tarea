@@ -1,9 +1,8 @@
 import http from 'http'
-import MongoConn from '../../../lib/mongodb'
+import MongoConn from '../../lib/mongodb'
 import express from 'express'
 import config from 'config'
-import logger from '../../../lib/logger';
-
+import logger from '../../lib/logger'
 export default class HttpServer {
     private port: number
     private httpServer: http.Server
